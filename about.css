@@ -1,11 +1,12 @@
+/* Set box-sizing, margin, padding and font family for all elements */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Style for navigation bar */
 nav {
   height: 80px;
   background: #fdcc04;
@@ -15,6 +16,7 @@ nav {
   padding: 0rem calc((100vw - 1300px) / 2);
 }
 
+/* Style for the logo */
 .logo {
   color: #000;
   font-size: 1.5rem;
@@ -23,20 +25,24 @@ nav {
   padding: 0 2rem;
 }
 
+/* Style for navigation links */
 nav a {
   text-decoration: none;
   color: #000;
   padding: 0 1.5rem;
 }
 
+/* Style for navigation links on hover */
 nav a:hover {
   color: #fff;
 }
 
+/* Style for image/hero section  */
 .hero {
-  background: #fdcc04;
+  background: #fff;
 }
 
+/* Style for container of image */
 .hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -44,6 +50,7 @@ nav a:hover {
   padding: 3rem calc((100vw - 1300px) / 2);
 }
 
+/* Style for the left column */
 .column-left {
   display: flex;
   flex-direction: column;
@@ -53,17 +60,20 @@ nav a:hover {
   padding: 0rem 2rem;
 }
 
+/* Style for tags*/
 .column-left h1 {
   margin-bottom: 1rem;
   font-size: 3rem;
 }
 
+/* Style for the p tag */
 .column-left p {
   margin-bottom: 2rem;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
+/* Style for button */
 button {
   padding: 1rem 3rem;
   font-size: 1rem;
@@ -74,11 +84,13 @@ button {
   border-radius: 50px;
 }
 
+/* Style for button on hover */
 button:hover {
   background: #fff;
   color: #000;
 }
 
+/* Style for the right column of image */
 .column-right {
   display: flex;
   justify-content: center;
@@ -86,11 +98,13 @@ button:hover {
   padding: 0rem 2rem;
 }
 
+/* Style for the image */
 .hero-image {
   width: 100%;
   height: 80%;
 }
 
+/* Adjusts for smaller screens */
 @media screen and (max-width: 768px) {
   .hero-container {
     grid-template-columns: 1fr;

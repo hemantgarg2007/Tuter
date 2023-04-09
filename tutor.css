@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav {
+    height: 80px; 
+    background: #fdcc04;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem; 
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    z-index: 999; 
+  }
+  
+  .logo {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 80px; 
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+    color: #fff;
+    background-color: #131313;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0f0f0f;
+  }
+  
+  .button {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #080808;
+    text-decoration: none;
+    border-bottom: 2px solid #0f0f0f;
+    padding-bottom: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    color: #0e0d0d;
+    border-bottom-color: #0e0d0d;
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>signup</title>
+	<link rel="stylesheet" type="text/css" href="tutee.css">
+
+</head>
+<body>
+    <nav>
+        <div class="logo">Tuter</div>
+        <div class="nav-items">
+          <a href="index.html">Home</a> 
+          <a href="about.html">About</a> 
+          <a href="tuter.html">Back</a> 
+        </div>
+      </nav>
+
+	<div class="container">
+		<h1>Tutee</h1>
+		<form>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select name="subject[]" id="subject" multiple>
+                    <option value="Math">Math</option>
+                    <option value="English">English</option>
+                    <option value="Science">Science</option>
+                    <option value="Social Studies">Social Studies</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="French">French</option>
+                    <option value="German">German</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Economics">Economics</option>
+                </select>
+            </div>
+
+			<div class="form-group">
+				<label for="description">Description</label>
+				<input type="text" id="description" name="description">
+			</div>
+
+			<a href = 'findingtutor.html'class = 'button'type="request now">Search</button>
+
+
+
+
+
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

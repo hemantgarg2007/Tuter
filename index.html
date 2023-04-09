@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuter - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styling for buttons style css has all the styles for page */
+
+      .button {
+        background-color: black;
+        color: white;
+        padding: 20px 40px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+    </style>
   </head>
   <body>
-    <nav>
-      <div class="logo">Tutor Uber</div>
-      <div class="nav-items">
-        <a href="/">Home</a> <a href="/">About</a> <a href="/">Contact</a>
-      </div>
-    </nav>
-    <section class="hero">
-      <div class="hero-container">
-        <div class="column-left">
-          <h1>Get a Personal Tutor at any Time</h1>
-          <p>
-            Late at night? Studying for a big test? Get help with Tutor uber 
-          </p>
-          <button>Get Started</button>
+    <header>
+      <nav>
+        <div class="logo">Tuter</div>
+        <div class="nav-items">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
         </div>
-        <div class="column-right">
-          <img
-            src="./picture/image-1.jpg"
-            alt="illustration
-        "
-            class="hero-image"
-          />
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="column-left">
+            <h1>Get a Personal Tutor at any Time</h1>
+            <p>
+              Late at night? Studying for a big test? Get help anytime with Tuter 
+            </p>
+            <a href="get_started.html" class="button">Get Started</a>
+          </div>
+          <div class="column-right">
+            <img src="./picture/image-1.jpg" alt="illustration" class="hero-image">
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Tuter. All rights reserved.</p>
+    </footer>
   </body>
 </html>
